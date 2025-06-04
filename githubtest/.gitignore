@@ -1,1 +1,43 @@
-/bin/
+# Eclipse-specific files
+*.launch
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# Build output
+/build/
+/target/
+/out/
+
+# Classpath and project files
+.classpath
+.project
+
+# Logs and temp files
+*.log
+*.log.*
+*.class
+
+# Maven or Gradle specific
+# (Include only if you're using these tools)
+.mvn/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+.gradle/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+
+# VS Code (if you use it occasionally)
+.vscode/
